@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="#000">
+    android:orientation="vertical">
     
     <TextView 
         android:layout_width="match_parent"
@@ -15,8 +14,27 @@
 	<ListView 
 	    android:layout_width="match_parent"
     	android:layout_height="wrap_content"
-    	android:id="@+id/activity_checkedtext_listview_check">
-	    
-	</ListView>
-		
+    	android:id="@+id/activity_checkedtext_listview_check"/>
+	<TextView 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#FFF"
+    	android:textColor="@android:color/black"
+    	android:gravity="center"
+    	android:text="@string/radio"/>
+	<ListView 
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/activity_checkedtext_listview_radio"/>
+	<TextView 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#FFF"
+    	android:textColor="@android:color/black"
+    	android:gravity="center"
+    	android:text="@string/multiple"/>
+	<ListView 
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/activity_checkedtext_listview_multiple"/>	
 </LinearLayout>

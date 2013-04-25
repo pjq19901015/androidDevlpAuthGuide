@@ -10,4 +10,7 @@
 	<string name="buttonfour">按钮4</string>
 	<string name="buttonfive">按钮5</string>
 	<string name="checked">chekced</string>
+	<string name="radio">radio</string>
+	<string name="multiple">multiple</string>
+	<string name="show">显示</string>
 </resources>
