@@ -14,4 +14,7 @@
 	<string name="multiple">multiple</string>
 	<string name="show">显示</string>
 	<string name="addmenu">增加菜单</string>
+	<string name="home">首页</string>
+	<string name="my">我的</string>
+	<string name="more">更多</string>
 </resources>

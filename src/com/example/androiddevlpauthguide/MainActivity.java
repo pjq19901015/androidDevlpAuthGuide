@@ -22,23 +22,22 @@ import android.support.v4.app.NavUtils;
 public class MainActivity extends Activity  {
 	private Button buttonAddMenu;
 	private Menu menu;
+	private int state;
+	private PopupWindow popwindow;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         buttonAddMenu = (Button) this.findViewById(R.id.main_button_addmenu);
-        buttonAddMenu.setOnClickListener(new View.OnClickListener(){
-
+        buttonAddMenu.setOnClickListener(new View.OnClickListener(){ 
 			@Override
 			public void onClick(View v) {
 				if(menu != null){
 					for(int i = 10; i < 15; i++){
 						menu.add(1, i, i, "²Ëµ¥" + i);
 					}
-				}
-				
-			}
-        	
+				}    
+			} 
         });
         registerForContextMenu(buttonAddMenu);
     }
@@ -97,14 +96,28 @@ public class MainActivity extends Activity  {
     }*/
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
+    	
+    	 
     	if(keyCode == KeyEvent.KEYCODE_MENU){
     		View layout = getLayoutInflater().inflate(R.layout.custom_menu, null);
-    		PopupWindow popwindow = new PopupWindow(layout,
-    						getWindowManager().getDefaultDisplay().getWidth(),
-    						getWindowManager().getDefaultDisplay().getHeight());
+    		popwindow = new PopupWindow(layout,
+    				getWindowManager().getDefaultDisplay().getWidth(),
+    				getWindowManager().getDefaultDisplay().getHeight());
+Log.i("data", "width:" + getWindowManager().getDefaultDisplay().getWidth() + 
+			  "height: " + getWindowManager().getDefaultDisplay().getHeight());
     		popwindow.showAtLocation(layout,Gravity.BOTTOM , 0, 0);
+    		state = 1;
+    		return true;
+    	}else if(keyCode == KeyEvent.KEYCODE_BACK){
+    		if(state == 1){
+    			popwindow.dismiss();
+    			state = 2; 
+    		}else if(state == 2){
+    			finish();
+    		}
     		return true;
     	}
     	return super.onKeyDown(keyCode, event);
     }
+
 }

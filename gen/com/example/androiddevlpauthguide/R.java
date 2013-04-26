@@ -16,13 +16,19 @@ public final class R {
         public static final int padding_small=0x7f040000;
     }
     public static final class drawable {
-        public static final int file=0x7f020000;
-        public static final int headerfile=0x7f020001;
-        public static final int ic_action_search=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int image_left=0x7f020004;
-        public static final int image_right=0x7f020005;
-        public static final int star=0x7f020006;
+        public static final int button_normal=0x7f020000;
+        public static final int button_normal_translucent=0x7f020001;
+        public static final int file=0x7f020002;
+        public static final int headerfile=0x7f020003;
+        public static final int home=0x7f020004;
+        public static final int ic_action_search=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int icon=0x7f020007;
+        public static final int image_left=0x7f020008;
+        public static final int image_right=0x7f020009;
+        public static final int mine=0x7f02000a;
+        public static final int more=0x7f02000b;
+        public static final int star=0x7f02000c;
     }
     public static final class id {
         public static final int activity_button_bt_five=0x7f080000;
@@ -54,8 +60,11 @@ public final class R {
         public static final int buttontwo=0x7f050005;
         public static final int checked=0x7f050009;
         public static final int hello_world=0x7f050001;
+        public static final int home=0x7f05000e;
         public static final int menu_settings=0x7f050002;
+        public static final int more=0x7f050010;
         public static final int multiple=0x7f05000b;
+        public static final int my=0x7f05000f;
         public static final int radio=0x7f05000a;
         public static final int show=0x7f05000c;
         public static final int title_activity_main=0x7f050003;
