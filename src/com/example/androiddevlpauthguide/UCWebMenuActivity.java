@@ -34,7 +34,7 @@ public class UCWebMenuActivity extends Activity implements OnKeyListener,OnItemC
 		gridview.setOnKeyListener(this); 
 		gridview.setOnItemClickListener(this);
 		popupWindow.setFocusable(true); 
-	}
+	} 
 	
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position,
@@ -50,7 +50,7 @@ public class UCWebMenuActivity extends Activity implements OnKeyListener,OnItemC
 				popupWindow.dismiss();
 			}else{
 				finish();
-			}
+			}        
 		}
 		return false;
 	} 
@@ -69,8 +69,7 @@ public class UCWebMenuActivity extends Activity implements OnKeyListener,OnItemC
 		}else{ 
 			View layout = LayoutInflater.from(this).inflate(R.layout.activity_main,null);
 			popupWindow.showAtLocation(layout, Gravity.BOTTOM, 0, 0);
-		}
-		
+		} 
 		return false;  
 	}
 }

@@ -16,8 +16,7 @@ import android.view.SubMenu;
 import android.view.View;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.widget.Button;
-import android.widget.PopupWindow;
-import android.support.v4.app.NavUtils;
+import android.widget.PopupWindow; 
 
 public class MainActivity extends Activity  {
 	private Button buttonAddMenu;
