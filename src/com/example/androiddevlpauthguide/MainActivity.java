@@ -31,7 +31,7 @@ public class MainActivity extends Activity  {
         buttonAddMenu = (Button) this.findViewById(R.id.main_button_addmenu);
         buttonAddMenu.setOnClickListener(new View.OnClickListener(){ 
 			@Override
-			public void onClick(View v) {
+			public void onClick(View v) { 
 				if(menu != null){
 					for(int i = 10; i < 15; i++){
 						menu.add(1, i, i, "²Ëµ¥" + i);
@@ -102,9 +102,7 @@ public class MainActivity extends Activity  {
     		View layout = getLayoutInflater().inflate(R.layout.custom_menu, null);
     		popwindow = new PopupWindow(layout,
     				getWindowManager().getDefaultDisplay().getWidth(),
-    				getWindowManager().getDefaultDisplay().getHeight());
-Log.i("data", "width:" + getWindowManager().getDefaultDisplay().getWidth() + 
-			  "height: " + getWindowManager().getDefaultDisplay().getHeight());
+    				getWindowManager().getDefaultDisplay().getHeight()); 
     		popwindow.showAtLocation(layout,Gravity.BOTTOM , 0, 0);
     		state = 1;
     		return true;
