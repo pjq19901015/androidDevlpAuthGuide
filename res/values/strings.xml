@@ -17,4 +17,6 @@
 	<string name="home">首页</string>
 	<string name="my">我的</string>
 	<string name="more">更多</string>
+	<string name="username">用户名</string>
+	<string name="password">密码</string>
 </resources>
