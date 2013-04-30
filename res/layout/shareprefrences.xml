@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/black">
+    
+    <Button 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="存储图像"
+    	android:id="@+id/shareprefrences_button_saveimage"/>
+    <Button 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="读取图像"
+    	android:id="@+id/shareprefrences_button_readimage"/>
+    <Button 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="50dp"
+    	android:text="存储对象"
+    	android:id="@+id/shareprefrences_button_saveobject"/>
+    <Button 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="读取对象"
+    	android:id="@+id/shareprefrences_button_readobject"/> 
+	<ImageView 
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/shareprefrences_imageview"/>
+</LinearLayout>

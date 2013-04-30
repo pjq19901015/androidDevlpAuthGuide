@@ -22,31 +22,32 @@ public final class R {
         public static final int dial=0x7f020003;
         public static final int face=0x7f020004;
         public static final int file=0x7f020005;
-        public static final int headerfile=0x7f020006;
-        public static final int home=0x7f020007;
-        public static final int ic_action_search=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int icon=0x7f02000a;
-        public static final int image=0x7f02000b;
-        public static final int image_left=0x7f02000c;
-        public static final int image_right=0x7f02000d;
-        public static final int incoming_and_outgoing_setting=0x7f02000e;
-        public static final int intercept_list=0x7f02000f;
-        public static final int intercept_rule=0x7f020010;
-        public static final int intercepted_record=0x7f020011;
-        public static final int ip=0x7f020012;
-        public static final int location=0x7f020013;
-        public static final int login=0x7f020014;
-        public static final int mine=0x7f020015;
-        public static final int more=0x7f020016;
-        public static final int ok=0x7f020017;
-        public static final int popup_window_border=0x7f020018;
-        public static final int privacy_manager=0x7f020019;
-        public static final int question=0x7f02001a;
-        public static final int smile=0x7f02001b;
-        public static final int star=0x7f02001c;
-        public static final int useful=0x7f02001d;
-        public static final int wait=0x7f02001e;
+        public static final int flower=0x7f020006;
+        public static final int headerfile=0x7f020007;
+        public static final int home=0x7f020008;
+        public static final int ic_action_search=0x7f020009;
+        public static final int ic_launcher=0x7f02000a;
+        public static final int icon=0x7f02000b;
+        public static final int image=0x7f02000c;
+        public static final int image_left=0x7f02000d;
+        public static final int image_right=0x7f02000e;
+        public static final int incoming_and_outgoing_setting=0x7f02000f;
+        public static final int intercept_list=0x7f020010;
+        public static final int intercept_rule=0x7f020011;
+        public static final int intercepted_record=0x7f020012;
+        public static final int ip=0x7f020013;
+        public static final int location=0x7f020014;
+        public static final int login=0x7f020015;
+        public static final int mine=0x7f020016;
+        public static final int more=0x7f020017;
+        public static final int ok=0x7f020018;
+        public static final int popup_window_border=0x7f020019;
+        public static final int privacy_manager=0x7f02001a;
+        public static final int question=0x7f02001b;
+        public static final int smile=0x7f02001c;
+        public static final int star=0x7f02001d;
+        public static final int useful=0x7f02001e;
+        public static final int wait=0x7f02001f;
     }
     public static final class id {
         public static final int activity_button_bt_five=0x7f080000;
@@ -67,11 +68,16 @@ public final class R {
         public static final int main_button_addmenu=0x7f08000a;
         public static final int remove_notification_button_clearmessage=0x7f080011;
         public static final int remove_notification_button_showmessage=0x7f080010;
-        public static final int stop_dialog_button_one=0x7f080012;
-        public static final int stop_dialog_button_three=0x7f080014;
-        public static final int stop_dialog_button_two=0x7f080013;
-        public static final int ucweb_menu_item_imageview=0x7f080015;
-        public static final int ucweb_menu_item_textview=0x7f080016;
+        public static final int shareprefrences_button_readimage=0x7f080013;
+        public static final int shareprefrences_button_readobject=0x7f080015;
+        public static final int shareprefrences_button_saveimage=0x7f080012;
+        public static final int shareprefrences_button_saveobject=0x7f080014;
+        public static final int shareprefrences_imageview=0x7f080016;
+        public static final int stop_dialog_button_one=0x7f080017;
+        public static final int stop_dialog_button_three=0x7f080019;
+        public static final int stop_dialog_button_two=0x7f080018;
+        public static final int ucweb_menu_item_imageview=0x7f08001a;
+        public static final int ucweb_menu_item_textview=0x7f08001b;
     }
     public static final class layout {
         public static final int activity_button=0x7f030000;
@@ -85,9 +91,10 @@ public final class R {
         public static final int custom_notification=0x7f030008;
         public static final int login=0x7f030009;
         public static final int remove_notification=0x7f03000a;
-        public static final int stop_dialog=0x7f03000b;
-        public static final int ucweb_menu=0x7f03000c;
-        public static final int ucweb_menu_item=0x7f03000d;
+        public static final int shareprefrences=0x7f03000b;
+        public static final int stop_dialog=0x7f03000c;
+        public static final int ucweb_menu=0x7f03000d;
+        public static final int ucweb_menu_item=0x7f03000e;
     }
     public static final class menu {
         public static final int file_menu=0x7f070000;
