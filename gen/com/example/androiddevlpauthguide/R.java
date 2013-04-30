@@ -43,9 +43,10 @@ public final class R {
         public static final int popup_window_border=0x7f020018;
         public static final int privacy_manager=0x7f020019;
         public static final int question=0x7f02001a;
-        public static final int star=0x7f02001b;
-        public static final int useful=0x7f02001c;
-        public static final int wait=0x7f02001d;
+        public static final int smile=0x7f02001b;
+        public static final int star=0x7f02001c;
+        public static final int useful=0x7f02001d;
+        public static final int wait=0x7f02001e;
     }
     public static final class id {
         public static final int activity_button_bt_five=0x7f080000;
@@ -60,12 +61,17 @@ public final class R {
         public static final int activity_main_textview=0x7f080009;
         public static final int activity_viewstub_bt_show=0x7f08000b;
         public static final int activity_viewstub_vs_one=0x7f08000c;
+        public static final int control_toast_button_closetoast=0x7f08000e;
+        public static final int control_toast_button_showtoast=0x7f08000d;
+        public static final int custom_notification_textview=0x7f08000f;
         public static final int main_button_addmenu=0x7f08000a;
-        public static final int stop_dialog_button_one=0x7f08000d;
-        public static final int stop_dialog_button_three=0x7f08000f;
-        public static final int stop_dialog_button_two=0x7f08000e;
-        public static final int ucweb_menu_item_imageview=0x7f080010;
-        public static final int ucweb_menu_item_textview=0x7f080011;
+        public static final int remove_notification_button_clearmessage=0x7f080011;
+        public static final int remove_notification_button_showmessage=0x7f080010;
+        public static final int stop_dialog_button_one=0x7f080012;
+        public static final int stop_dialog_button_three=0x7f080014;
+        public static final int stop_dialog_button_two=0x7f080013;
+        public static final int ucweb_menu_item_imageview=0x7f080015;
+        public static final int ucweb_menu_item_textview=0x7f080016;
     }
     public static final class layout {
         public static final int activity_button=0x7f030000;
@@ -74,11 +80,14 @@ public final class R {
         public static final int activity_main=0x7f030003;
         public static final int activity_viewstub=0x7f030004;
         public static final int activity_viewstub_stub=0x7f030005;
-        public static final int custom_menu=0x7f030006;
-        public static final int login=0x7f030007;
-        public static final int stop_dialog=0x7f030008;
-        public static final int ucweb_menu=0x7f030009;
-        public static final int ucweb_menu_item=0x7f03000a;
+        public static final int control_toast=0x7f030006;
+        public static final int custom_menu=0x7f030007;
+        public static final int custom_notification=0x7f030008;
+        public static final int login=0x7f030009;
+        public static final int remove_notification=0x7f03000a;
+        public static final int stop_dialog=0x7f03000b;
+        public static final int ucweb_menu=0x7f03000c;
+        public static final int ucweb_menu_item=0x7f03000d;
     }
     public static final class menu {
         public static final int file_menu=0x7f070000;
