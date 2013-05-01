@@ -19,4 +19,6 @@
 	<string name="more">更多</string>
 	<string name="username">用户名</string>
 	<string name="password">密码</string>
+	<string name="fadeinout">淡入淡出</string>
+	<string name="hyperspace">hyperspace</string>
 </resources>
