@@ -68,34 +68,43 @@ public final class R {
         public static final int activity_viewstub_vs_one=0x7f0b000f;
         public static final int animation_button_one=0x7f0b0010;
         public static final int animation_button_two=0x7f0b0011;
-        public static final int battery_textview=0x7f0b0012;
-        public static final int control_toast_button_closetoast=0x7f0b0014;
-        public static final int control_toast_button_showtoast=0x7f0b0013;
-        public static final int custom_action_one=0x7f0b0015;
-        public static final int custom_action_two=0x7f0b0016;
-        public static final int custom_notification_textview=0x7f0b0017;
-        public static final int group_activity_button_footer=0x7f0b001b;
-        public static final int group_activity_linearlayout_one=0x7f0b0018;
-        public static final int group_activity_linearlayout_three=0x7f0b001a;
-        public static final int group_activity_linearlayout_two=0x7f0b0019;
+        public static final int app_widget_button=0x7f0b0013;
+        public static final int app_widget_edittext=0x7f0b0012;
+        public static final int appwidget_provider_textview=0x7f0b0014;
+        public static final int battery_textview=0x7f0b0015;
+        public static final int control_toast_button_closetoast=0x7f0b0017;
+        public static final int control_toast_button_showtoast=0x7f0b0016;
+        public static final int custom_action_one=0x7f0b0018;
+        public static final int custom_action_two=0x7f0b0019;
+        public static final int custom_notification_textview=0x7f0b001a;
+        public static final int get_wifi_to_mobile_ip_textview=0x7f0b001b;
+        public static final int group_activity_button_footer=0x7f0b001f;
+        public static final int group_activity_linearlayout_one=0x7f0b001c;
+        public static final int group_activity_linearlayout_three=0x7f0b001e;
+        public static final int group_activity_linearlayout_two=0x7f0b001d;
         public static final int main_button_addmenu=0x7f0b000d;
         public static final int one=0x7f0b0000;
-        public static final int publish_sqlite_one=0x7f0b001c;
-        public static final int publish_sqlite_two=0x7f0b001d;
-        public static final int remove_notification_button_clearmessage=0x7f0b001f;
-        public static final int remove_notification_button_showmessage=0x7f0b001e;
-        public static final int shareprefrences_button_readimage=0x7f0b0021;
-        public static final int shareprefrences_button_readobject=0x7f0b0023;
-        public static final int shareprefrences_button_saveimage=0x7f0b0020;
-        public static final int shareprefrences_button_saveobject=0x7f0b0022;
-        public static final int shareprefrences_imageview=0x7f0b0024;
-        public static final int stop_dialog_button_one=0x7f0b0025;
-        public static final int stop_dialog_button_three=0x7f0b0027;
-        public static final int stop_dialog_button_two=0x7f0b0026;
+        public static final int publish_sqlite_one=0x7f0b0020;
+        public static final int publish_sqlite_two=0x7f0b0021;
+        public static final int remove_notification_button_clearmessage=0x7f0b0023;
+        public static final int remove_notification_button_showmessage=0x7f0b0022;
+        public static final int sensor_textview_five=0x7f0b0028;
+        public static final int sensor_textview_four=0x7f0b0027;
+        public static final int sensor_textview_one=0x7f0b0024;
+        public static final int sensor_textview_three=0x7f0b0026;
+        public static final int sensor_textview_two=0x7f0b0025;
+        public static final int shareprefrences_button_readimage=0x7f0b002a;
+        public static final int shareprefrences_button_readobject=0x7f0b002c;
+        public static final int shareprefrences_button_saveimage=0x7f0b0029;
+        public static final int shareprefrences_button_saveobject=0x7f0b002b;
+        public static final int shareprefrences_imageview=0x7f0b002d;
+        public static final int stop_dialog_button_one=0x7f0b002e;
+        public static final int stop_dialog_button_three=0x7f0b0030;
+        public static final int stop_dialog_button_two=0x7f0b002f;
         public static final int three=0x7f0b0002;
         public static final int two=0x7f0b0001;
-        public static final int ucweb_menu_item_imageview=0x7f0b0028;
-        public static final int ucweb_menu_item_textview=0x7f0b0029;
+        public static final int ucweb_menu_item_imageview=0x7f0b0031;
+        public static final int ucweb_menu_item_textview=0x7f0b0032;
     }
     public static final class layout {
         public static final int activity1=0x7f030000;
@@ -109,19 +118,23 @@ public final class R {
         public static final int activity_viewstub_stub=0x7f030008;
         public static final int animation=0x7f030009;
         public static final int animation_activity=0x7f03000a;
-        public static final int battery=0x7f03000b;
-        public static final int control_toast=0x7f03000c;
-        public static final int custom_action=0x7f03000d;
-        public static final int custom_menu=0x7f03000e;
-        public static final int custom_notification=0x7f03000f;
-        public static final int group_activity=0x7f030010;
-        public static final int login=0x7f030011;
-        public static final int publish_sqlite=0x7f030012;
-        public static final int remove_notification=0x7f030013;
-        public static final int shareprefrences=0x7f030014;
-        public static final int stop_dialog=0x7f030015;
-        public static final int ucweb_menu=0x7f030016;
-        public static final int ucweb_menu_item=0x7f030017;
+        public static final int app_widget=0x7f03000b;
+        public static final int appwidget_provider=0x7f03000c;
+        public static final int battery=0x7f03000d;
+        public static final int control_toast=0x7f03000e;
+        public static final int custom_action=0x7f03000f;
+        public static final int custom_menu=0x7f030010;
+        public static final int custom_notification=0x7f030011;
+        public static final int get_wifi_to_mobile_ip=0x7f030012;
+        public static final int group_activity=0x7f030013;
+        public static final int login=0x7f030014;
+        public static final int publish_sqlite=0x7f030015;
+        public static final int remove_notification=0x7f030016;
+        public static final int sensor=0x7f030017;
+        public static final int shareprefrences=0x7f030018;
+        public static final int stop_dialog=0x7f030019;
+        public static final int ucweb_menu=0x7f03001a;
+        public static final int ucweb_menu_item=0x7f03001b;
     }
     public static final class menu {
         public static final int file_menu=0x7f0a0000;
@@ -147,6 +160,7 @@ public final class R {
         public static final int more=0x7f080010;
         public static final int multiple=0x7f08000b;
         public static final int my=0x7f08000f;
+        public static final int ok=0x7f080015;
         public static final int password=0x7f080012;
         public static final int radio=0x7f08000a;
         public static final int show=0x7f08000c;
@@ -157,6 +171,7 @@ public final class R {
         public static final int AppTheme=0x7f090000;
     }
     public static final class xml {
-        public static final int preference=0x7f050000;
+        public static final int appwidget_provider=0x7f050000;
+        public static final int preference=0x7f050001;
     }
 }
