@@ -4,5 +4,7 @@
     android:minWidth="60dp"
     android:minHeight="30dp"
     android:updatePeriodMillis="86400000"
-    android:initialLayout="@layout/appwidget_provider"
-    android:configure="com.example.androiddevlpauthguide.ConfigAppWidgetActivity"/>
+    android:initialLayout="@layout/appwidget_provider2"
+    android:configure="com.example.androiddevlpauthguide.ConfigAppWidgetActivity">
+</appwidget-provider>    
+<!-- android:configure="com.example.androiddevlpauthguide.ConfigAppWidgetActivity" -->

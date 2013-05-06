@@ -16,11 +16,11 @@
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+ 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter> 
         </activity> -->
-        <receiver android:name=".MyAppWidgetProvider">
+        <!--  <receiver android:name=".MyAppWidgetProvider">
             <meta-data 
                 android:name="android.appwidget.provider"
                 android:resource="@xml/appwidget_provider"/>
@@ -32,16 +32,38 @@
             <intent-filter >
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
             </intent-filter>
-        </activity>
+        </activity> --> 
+        <!--  <activity 
+            android:name=".ShortcutActivity"
+            android:label="打电话2"
+            android:icon="@drawable/star">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+        </activity> -->
+        <service
+            android:name=".LiveWallpaperService" 
+            android:icon="@drawable/star"
+            android:label="动态壁纸"
+            android:enabled="true"
+            android:permission="android.permission.BIND_WALLPAPER">  
+            
+            <intent-filter android:priority="1">
+                <action android:name="android.service.wallpaper.Wallpaper"/>
+            </intent-filter>
+        </service>  
         <activity android:name=".CheckedTextActivity"/> 
         <activity android:name=".Activity1" android:label="Activity1">
-		</activity>
+		</activity> 
 		<activity android:name=".Activity2" android:label="Activity2">
-		</activity>
+		</activity>   
 		<activity android:name=".Activity3" android:label="Activity3"/> 
 		<activity android:name=".AnimationActivity2"/> 
-		
-    </application>
+		<service android:name=".WifiActivity" />
+    </application>    
+    
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.INTERNET"/>
-</manifest>
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+</manifest> 

@@ -119,7 +119,7 @@ public final class R {
         public static final int animation=0x7f030009;
         public static final int animation_activity=0x7f03000a;
         public static final int app_widget=0x7f03000b;
-        public static final int appwidget_provider=0x7f03000c;
+        public static final int appwidget_provider2=0x7f03000c;
         public static final int battery=0x7f03000d;
         public static final int control_toast=0x7f03000e;
         public static final int custom_action=0x7f03000f;
