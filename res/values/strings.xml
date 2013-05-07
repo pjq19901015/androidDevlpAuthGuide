@@ -22,4 +22,6 @@
 	<string name="fadeinout">淡入淡出</string>
 	<string name="hyperspace">hyperspace</string>
 	<string name="ok">确定</string>
+	<string name="description">动态壁纸配置</string>
+	
 </resources>

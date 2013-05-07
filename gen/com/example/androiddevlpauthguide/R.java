@@ -20,38 +20,39 @@ public final class R {
         public static final int padding_small=0x7f070000;
     }
     public static final class drawable {
-        public static final int button_normal=0x7f020000;
-        public static final int button_normal_translucent=0x7f020001;
-        public static final int cancel=0x7f020002;
-        public static final int dial=0x7f020003;
-        public static final int face=0x7f020004;
-        public static final int file=0x7f020005;
-        public static final int flower=0x7f020006;
-        public static final int headerfile=0x7f020007;
-        public static final int home=0x7f020008;
-        public static final int ic_action_search=0x7f020009;
-        public static final int ic_launcher=0x7f02000a;
-        public static final int icon=0x7f02000b;
-        public static final int image=0x7f02000c;
-        public static final int image_left=0x7f02000d;
-        public static final int image_right=0x7f02000e;
-        public static final int incoming_and_outgoing_setting=0x7f02000f;
-        public static final int intercept_list=0x7f020010;
-        public static final int intercept_rule=0x7f020011;
-        public static final int intercepted_record=0x7f020012;
-        public static final int ip=0x7f020013;
-        public static final int location=0x7f020014;
-        public static final int login=0x7f020015;
-        public static final int mine=0x7f020016;
-        public static final int more=0x7f020017;
-        public static final int ok=0x7f020018;
-        public static final int popup_window_border=0x7f020019;
-        public static final int privacy_manager=0x7f02001a;
-        public static final int question=0x7f02001b;
-        public static final int smile=0x7f02001c;
-        public static final int star=0x7f02001d;
-        public static final int useful=0x7f02001e;
-        public static final int wait=0x7f02001f;
+        public static final int background=0x7f020000;
+        public static final int button_normal=0x7f020001;
+        public static final int button_normal_translucent=0x7f020002;
+        public static final int cancel=0x7f020003;
+        public static final int dial=0x7f020004;
+        public static final int face=0x7f020005;
+        public static final int file=0x7f020006;
+        public static final int flower=0x7f020007;
+        public static final int headerfile=0x7f020008;
+        public static final int home=0x7f020009;
+        public static final int ic_action_search=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int icon=0x7f02000c;
+        public static final int image=0x7f02000d;
+        public static final int image_left=0x7f02000e;
+        public static final int image_right=0x7f02000f;
+        public static final int incoming_and_outgoing_setting=0x7f020010;
+        public static final int intercept_list=0x7f020011;
+        public static final int intercept_rule=0x7f020012;
+        public static final int intercepted_record=0x7f020013;
+        public static final int ip=0x7f020014;
+        public static final int location=0x7f020015;
+        public static final int login=0x7f020016;
+        public static final int mine=0x7f020017;
+        public static final int more=0x7f020018;
+        public static final int ok=0x7f020019;
+        public static final int popup_window_border=0x7f02001a;
+        public static final int privacy_manager=0x7f02001b;
+        public static final int question=0x7f02001c;
+        public static final int smile=0x7f02001d;
+        public static final int star=0x7f02001e;
+        public static final int useful=0x7f02001f;
+        public static final int wait=0x7f020020;
     }
     public static final class id {
         public static final int activity_button_bt_five=0x7f0b0003;
@@ -152,6 +153,7 @@ public final class R {
         public static final int buttonthree=0x7f080006;
         public static final int buttontwo=0x7f080005;
         public static final int checked=0x7f080009;
+        public static final int description=0x7f080016;
         public static final int fadeinout=0x7f080013;
         public static final int hello_world=0x7f080001;
         public static final int home=0x7f08000e;
@@ -173,5 +175,6 @@ public final class R {
     public static final class xml {
         public static final int appwidget_provider=0x7f050000;
         public static final int preference=0x7f050001;
+        public static final int wallpaper=0x7f050002;
     }
 }
