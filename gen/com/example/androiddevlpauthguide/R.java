@@ -106,6 +106,7 @@ public final class R {
         public static final int two=0x7f0b0001;
         public static final int ucweb_menu_item_imageview=0x7f0b0031;
         public static final int ucweb_menu_item_textview=0x7f0b0032;
+        public static final int webview=0x7f0b0033;
     }
     public static final class layout {
         public static final int activity1=0x7f030000;
@@ -136,6 +137,7 @@ public final class R {
         public static final int stop_dialog=0x7f030019;
         public static final int ucweb_menu=0x7f03001a;
         public static final int ucweb_menu_item=0x7f03001b;
+        public static final int webview=0x7f03001c;
     }
     public static final class menu {
         public static final int file_menu=0x7f0a0000;

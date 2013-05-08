@@ -11,15 +11,15 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"    
         android:theme="@style/AppTheme" > 
-        <!--  <activity
-            android:name=".SensorActivity"
+        <activity
+            android:name=".WebviewActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
  
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter> 
-        </activity> -->
+        </activity>
         <!--  <receiver android:name=".MyAppWidgetProvider">
             <meta-data 
                 android:name="android.appwidget.provider"
@@ -42,7 +42,7 @@
                 <action android:name="android.intent.action.CREATE_SHORTCUT"/>
             </intent-filter>
         </activity> -->  
-        <service
+        <!--  <service
             android:name="com.example.androiddevlpauthguide.service.LiveWallpaperService" 
             android:icon="@drawable/star"
             android:label="@string/description"
@@ -55,7 +55,8 @@
             <meta-data 
                 android:name="android.service.wallpaper"
                 android:resource="@xml/wallpaper"/>
-        </service>     
+        </service>  -->
+             
         <activity android:name=".CheckedTextActivity"/> 
         <activity android:name=".Activity1" android:label="Activity1">
 		</activity>  
